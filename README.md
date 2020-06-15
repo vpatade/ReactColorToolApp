@@ -1,10 +1,9 @@
 # TypeScript with React and Mobx
 This is the simple tool build using React and Mobx to demonstrate and understand basic concepts of react like components, models, container, hooks, states etc.
 
-## How to Use the Instructor's Version
+## How to Use the this a
 
-1. Clone this repository to a new folder. Do not attempt to copy these files over your version or another version which you have cloned. Replace `FOLDER_NAME` with the name of a new folder which will be created when the content is cloned.
-
+1. Clone this repository to a folder.
 ```
 https://github.com/vpatade/ReactColorToolApp.git
 ```
