@@ -1,4 +1,4 @@
-# TypeScript with React and Mobx
+# React and Mobx
 This is the simple tool build using React and Mobx to demonstrate and understand basic concepts of react like components, models, container, hooks, states etc.
 
 ## How to Use the this a
