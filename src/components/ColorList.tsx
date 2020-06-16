@@ -6,7 +6,6 @@ import { ColorListItem } from "./ColorListItem";
 export interface ColorListProps {
     colors: Color[],
     onDeleteColor : (id : number) => void;
-    onClearColors : () => void;
 }
 
 export const ColorList: FC<ColorListProps> = (props : ColorListProps) => {
@@ -15,7 +14,6 @@ export const ColorList: FC<ColorListProps> = (props : ColorListProps) => {
             <ul>
                 {props.colors.map(color => <ColorListItem key={color.id} color={color} onDeleteColor={props.onDeleteColor}/>)} 
             </ul>
-            <button type='button' onClick={props.onClearColors}> Clear </button>
         </React.Fragment>
     );
 }

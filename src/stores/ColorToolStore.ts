@@ -39,4 +39,20 @@ export class ColorToolStore {
         await Promise.all(this._colors.map(c => this.deleteColor(c.id!)));
         return this.refreshColors();
     }
+
+    @action.bound
+    async sortColors() {
+        var sortedColors : Color[] = this.colors.sort((obj1, obj2) => {
+            if(obj1.name <= obj2.name) {
+                return -1;
+            }
+            else { 
+                return 1;
+            }
+        });
+
+        await this.clearColors();
+        sortedColors.map(c => {this.addColor(c)});
+        return this.refreshColors();
+    }
 }

@@ -20,6 +20,7 @@ export const ColorToolContainer : FC<ColorToolContainerProps> = () => {
             onAddColor : store.addColor,
             onDeleteColor : store.deleteColor,
             onClearColors : store.clearColors,
+            onSortColors : store.sortColors,
         }
 
         return <ColorTool {...colorToolProps}></ColorTool>
