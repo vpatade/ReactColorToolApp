@@ -1,4 +1,4 @@
-# TypeScript with React and Mobx
+# React and Mobx
 This is the simple tool build using React and Mobx to demonstrate and understand basic concepts of react like components, models, container, hooks, states etc.
 
 ## How to Use the this a
@@ -28,7 +28,7 @@ npm install -D json-server npm-run-all
 5. To install mobx run the following command
 
 ```bash
-npm install -D mobx-react-lite
+npm install -S mobx-react-lite
 ```
 
 6. To start the React application, run the following command.
