@@ -1,7 +1,7 @@
 # React and Mobx
 This is the simple tool build using React and Mobx to demonstrate and understand basic concepts of react like components, models, container, hooks, states etc.
 
-## How to Use the this a
+## How to Use the this App
 
 1. Clone this repository to a folder.
 ```
