@@ -28,7 +28,7 @@ npm install -D json-server npm-run-all
 5. To install mobx run the following command
 
 ```bash
-npm install -D mobx-react-lite
+npm install -S mobx-react-lite
 ```
 
 6. To start the React application, run the following command.
